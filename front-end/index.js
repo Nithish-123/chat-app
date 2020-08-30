@@ -7,7 +7,7 @@ const messagefield = document.querySelector("#message");
 const sidebarfield = document.querySelector(".chat_sidebar");
 
 const autoscroll = () => {
-	messagefield.scrollTop = messagefield.scrollHeight;
+		messagefield.scrollTop = messagefield.scrollHeight;
 };
 const sidebarcontents = (sidebar) => {
 	const roomdet = sidebar.map(
